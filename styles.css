@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(34, 72, 58);
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+}
+
+.nav {
+    background-color: maroon;
+    width: 100%;
+    margin: 10px;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(222, 184, 135);
+    border: 3px solid rgb(222, 184, 135);
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.nav li a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    font-weight: 1000;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin: auto;
+}
+
+#profile-image {
+    border-radius: 100px;
+    display: flex; 
+    justify-content: center; 
+    margin: 5px; 
+    float: right;
+
+}
+
+.footer {
+    position: fixed;
+    background-color: maroon;
+    width: 100%;
+    margin: 20px;
+    padding:10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.footer li {
+    display: inline-block;
+    margin-right: 20px;
+    color: rgb(222, 184, 135);
+    border: 3px solid rgb(222, 184, 135);
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    
+}
+.footer li a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li a:visited  {
+    color: white;
+    text-decoration: none;
+}
+
+.footer li:hover{
+    font-weight: 1000;
+}
+
+.footer p {
+    color: rgb(222, 184, 135);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    
+
+}
+
+h2 {
+    color:beige;
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    color:rgb(253, 115, 3);
+    display: ;
+    justify-content: center;
+
+}
+
+.intro p {
+    color: rgb(185, 182, 182);
+}
+
+hr {
+    margin : 30px 20px;
+}
